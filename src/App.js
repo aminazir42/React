@@ -1,6 +1,8 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Switch, Route, useHistory } from 'react-router-dom';
+
 import SignIn from './components/SignIn';
 import OTPVerification from './components/OTPVerification';
 import Success from './components/Success';
