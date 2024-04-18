@@ -1,8 +1,5 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Switch, Route, useHistory } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Switch, useHistory } from 'react-router-dom'; // Remove duplicate import of Switch and useHistory
 import SignIn from './components/SignIn';
 import OTPVerification from './components/OTPVerification';
 import Success from './components/Success';
