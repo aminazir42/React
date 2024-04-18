@@ -8,12 +8,12 @@ import Typography from '@mui/joy/Typography';
 import Link from '@mui/joy/Link';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 
-export default function ContainerResponsive(): JSX.Element {
+export default function ContainerResponsive() {
   return (
     <Box sx={{ minHeight: 350 }}>
       <Card
         variant="outlined"
-        sx={(theme: any) => ({
+        sx={(theme) => ({
           width: 300,
           gridColumn: 'span 2',
           flexDirection: 'row',
