@@ -1,20 +1,24 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Remove duplicate import of Switch
-import SignIn from './components/SignIn';
-import OTPVerification from './components/OTPVerification';
-import Success from './components/Success';
-import Home from './components/Home';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={SignIn} />
-        <Route path="/otp" component={OTPVerification} />
-        <Route path="/success" component={Success} />
-        <Route path="/home" component={Home} />
-      </Switch>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
