@@ -1,14 +1,37 @@
-/* Navbar custom styles */
+ /* Navbar custom styles */
 .navbar {
-    background-color: #3498db; /* Navbar background color */
+    background-color: #043657;
+    height: 80px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add sharp shadow */
   }
   
-  .navbar-brand,
-  .navbar-nav .nav-link {
-    color: #fff !important; /* Navbar text color */
+  .navbar-brand {
+    display: flex;
+    align-items: center;
   }
   
-  .navbar-nav .nav-link:hover {
-    color: #f0f0f0 !important; /* Navbar text color on hover */
+  .navbar-brand img {
+    margin-right: 10px;
   }
   
+  .brand-text {
+    color: #fff;
+    font-size: 45px;
+    font-family: "Brush Script MT", cursive;
+  }
+/* Card layout styles */
+.card-layout {
+  display: flex;
+  flex-wrap: wrap; /* Ensure cards wrap to the next line if needed */
+  margin-top: 20px;
+}
+
+/* Card shadow effect */
+.card {
+  flex: 0 0 calc(30% - 20px); /* Set the width of the cards to approximately 30% of the container width with a 20px margin */
+  height: 100px; 
+  margin-left: auto;
+  margin-bottom:50px;
+  margin-top:50px;
+
+}
