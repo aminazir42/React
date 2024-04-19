@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+/* NavigationBar.css */
+
+/* Adjust navbar background color */
+.navbar-custom {
+  background-color: #3498db !important; /* You can change the color code as needed */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Adjust navbar brand text color */
+.navbar-custom .navbar-brand {
+  color: #fff !important; /* White color for the text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Adjust navigation links text color */
+.navbar-custom .nav-link {
+  color: #fff !important; /* White color for the text */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Adjust hover effect for navigation links */
+.navbar-custom .nav-link:hover {
+  color: #f0f0f0 !important; /* Lighter color on hover */
 }
