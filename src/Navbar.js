@@ -1,19 +1,22 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './Navbar.css'; // Import CSS file
+import logo from './logo.png';
 
 function NavbarComponent() {
   return (
     <Navbar expand="lg">
-      <Navbar.Brand href="#home">React Navbar</Navbar.Brand>
+      <Navbar.Brand href="#home">
+        <img
+          src={logo} // Path to your logo image file
+          height="30" // Adjust the height as needed
+          className="d-inline-block align-top" // Align the logo vertically
+          alt="Logo" // Alternative text for accessibility
+        />
+        React Navbar</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#services">Services</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-        </Nav>
+    
       </Navbar.Collapse>
     </Navbar>
   );
