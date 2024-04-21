@@ -4,6 +4,14 @@ import './Navbar.css'; // Import CSS file for card layout
 
 function CardLayout() {
   return (
+    <>
+      <style>{`
+        body {
+          background-image: url("https://wallpapers.com/images/hd/light-color-background-s45npu358t75qa1z.jpg");
+          background-size: cover;
+          
+        }
+      `}</style>
     <div className="card-layout">
       <Card>
         <Card.Img
@@ -12,10 +20,9 @@ function CardLayout() {
           style={{ width: '50%', height: 'auto' }} // Adjust image size
         />
         <Card.Body>
-          <Card.Title>Card 1</Card.Title>
+          <Card.Title>Art</Card.Title>
           <Card.Text>
-            This is a sample card with some content. You can customize it as needed.
-          </Card.Text>
+          Nail art has evolved into a captivating form of self-expression, transforming ordinary nails into miniature canvases of creativity. From vibrant patterns to intricate designs, the world of nail fashion offers a myriad of possibilities to adorn fingertips with flair          </Card.Text>
         </Card.Body>
       </Card>
       <Card>
@@ -25,10 +32,9 @@ function CardLayout() {
           style={{ width:'50%', height: 'auto' }} // Adjust image size
         />
         <Card.Body>
-          <Card.Title>Card 2</Card.Title>
+          <Card.Title>Art</Card.Title>
           <Card.Text>
-            Another sample card with some content.
-          </Card.Text>
+          With social media platforms serving as virtual runways, nail artists and enthusiasts alike share their latest creations, inspiring others to push the boundaries of conventional nail aesthetics.          </Card.Text>
         </Card.Body>
       </Card>
       <Card>
@@ -38,14 +44,13 @@ function CardLayout() {
          style={{ width:'50%', height: 'auto' }} // Adjust image size"
         />
         <Card.Body>
-          <Card.Title>Card 3</Card.Title>
+          <Card.Title>Art</Card.Title>
           <Card.Text>
-            Another sample card with some content.
-          </Card.Text>
+          Each stroke of polish and delicate placement of embellishments speaks volumes about personal style and artistic vision. Whether it's geometric shapes for a modern edge or delicate florals for a touch of elegance, nail art allows individuals to showcase their personality with every manicured detail.          </Card.Text>
         </Card.Body>
       </Card>
     </div>
-    
+    </>
   );
 }
 export default CardLayout;
