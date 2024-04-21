@@ -13,8 +13,8 @@ function NavbarComponent() {
           className="d-inline-block align-top" // Align the logo vertically
           alt="Logo" // Alternative text for accessibility
         />
-        <span className="brand-text">Nails art</span>
-      </Navbar.Brand>      
+{/*         <span className="brand-text">Nails art</span>
+ */}      </Navbar.Brand>      
     </Navbar>
   );
 }
