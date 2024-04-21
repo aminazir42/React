@@ -1,60 +1,51 @@
 
 .navbar {
     background-color: #043657;
-    height: 80px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add sharp shadow */
-}
-  
-.navbar-brand {
-    display: flex;
-    align-items: center;
+    height: 90px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
   
 .navbar-brand img {
-    margin-right: 10px;
+    margin-right:20px;
+
 }
   
-/* Card layout styles */
 .card-layout {
     display: flex;
-    flex-wrap: wrap; /* Ensure cards wrap to the next line if needed */
+    flex-wrap: wrap; 
     margin-top: 20px;
 }
-  
-/* Card shadow effect */
+
 .card {
-    flex: 0 0 calc(30% - 20px); /* Set the width of the cards to approximately 30% of the container width with a 20px margin */
+    flex: 0 0 calc(30% - 20px); 
     margin-left: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-    transition: transform 0.3s ease; /* Add transition for smoother animation */
+    transition: transform 0.3s ease; 
 }
 
-/* Image shadow effect */
 .card .card-img-top {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add sharp shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Card title font */
 .card-title {
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size:20px; /* Adjust font size as needed */
-    color: #333; /* Change font color as needed */
-    transition: color 0.3s ease; /* Add transition for smoother color change */
+    font-size:20px;
+    color: #333; 
+    transition: color 0.3s ease; 
 }
 
-/* Card text animation */
+
 .card-text {
-    opacity: 0; /* Initially hide the text */
-    transition: opacity 0.5s ease; /* Add transition for smoother animation */
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
 }
 
-/* Card hover animation */
+
 .card:hover {
-    transform: scale(1.05); /* Scale the card on hover */
+    transform: scale(1.05); 
 }
 
-/* Card hover animation for text */
 .card:hover .card-text {
-    opacity: 1; /* Show the text on hover */
+    opacity: 1; 
 }

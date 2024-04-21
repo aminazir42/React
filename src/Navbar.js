@@ -1,20 +1,19 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
-import './Navbar.css'; // Import CSS file
-import logo from './logo.png';
+import './Navbar.css'; 
+import logo from './logoo.png';
 
 function NavbarComponent() {
   return (
     <Navbar expand="lg">
       <Navbar.Brand>
         <img
-          src={logo} // Path to your logo image file
-          height="80" // Adjust the height as needed
-          className="d-inline-block align-top" // Align the logo vertically
-          alt="Logo" // Alternative text for accessibility
+          src={logo} 
+          height="100" 
+          className="d-inline-block align-top" 
+          alt="Logo" 
         />
-{/*         <span className="brand-text">Nails art</span>
- */}      </Navbar.Brand>      
+     </Navbar.Brand>      
     </Navbar>
   );
 }

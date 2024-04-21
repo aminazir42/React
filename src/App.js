@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css'; // Import CSS file
+import './App.css'; 
 import NavbarComponent from './Navbar';
-import CardLayout from './CardLayout'; // Import CardLayout component
+import CardLayout from './CardLayout'; 
 
 function App() {
   return (
     <div className="App">
       <NavbarComponent />
-      <CardLayout /> {/* Include the CardLayout component */}
+      <CardLayout /> 
     </div>
   );
 }
